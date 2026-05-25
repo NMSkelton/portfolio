@@ -48,8 +48,6 @@ import { filter } from 'rxjs/operators';
     </div>
   `,
   styles: [`
-    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,800;1,400;1,800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap');
-
     :host {
       --ink:        #364066;
       --paper:      #f0f1f4;
