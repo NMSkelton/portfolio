@@ -34,24 +34,36 @@ import { Component } from '@angular/core';
 
           <div class="bio">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Hard-surface and environment artist focused on creating clean,
-              production-ready assets with an emphasis on strong topology, material
-              definition, and scene composition.
+              Being able to create something from nothing. The void of an empty Maya scene staring back at you, holding
+              limitless potential. If you can think it, then it can be created. More than any traditional medium I’ve worked
+              with, 3D art encourages a deeper understanding of the subjects you recreate — not just how something looks, but
+              how it’s built, how materials interact, how forms are constructed, and how objects occupy space. Every asset
+              becomes a process of observation and problem solving, breaking down real-world design into shapes, surfaces, and
+              functionality. That blend of technical precision and creativity is what first drew me to 3D art and continues to
+              drive my work today.
             </p>
             <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-              eu fugiat nulla pariatur. Experienced working in fast-paced team environments
-              requiring organization, problem solving, visual execution, and deadline
-              management. Excepteur sint occaecat cupidatat non proident.
+              I enjoy fiction novels, especially techno-thrillers, and like many people my age, I grew up playing a lot of video
+              games. Those interests helped build my appreciation for worldbuilding, environmental storytelling, and the incredible
+              amount of detail that goes into creating believable fictional spaces. Whether it was the atmosphere of a worn industrial
+              corridor, the design of a futuristic vehicle, or the subtle details that made a game world feel lived-in, I became
+              fascinated by the artistry behind the experiences I enjoyed.
             </p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut
-              perspiciatis unde omnis iste natus error sit voluptatem accusantium
-              doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-              veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+              That fascination eventually led me toward 3D art. What began as curiosity quickly turned into a passion for understanding
+              how environments, props, and materials are constructed from the ground up. I’ve always been drawn to hard-surface and
+              environment work in particular — the balance between technical structure and artistic presentation, where functionality,
+              form, and visual storytelling all intersect.
+            </p>
+            <p>
+              My approach to art is heavily rooted in observation and problem solving. I enjoy studying real-world materials, architecture,
+              industrial design, and manufacturing techniques to better understand why objects look and function the way they do. Translating
+              those details into a digital space is what makes the process rewarding to me. Every project becomes an opportunity to learn
+              something new, refine my workflow, and continue developing as an artist.
+            </p>
+            <p>
+              Outside of art, I’ve spent years working in fast-paced leadership roles that strengthened my ability to stay organized,
+              adapt quickly, collaborate with teams, and work effectively under deadlines. Those experiences continue to shape the way I approach creative work today — with consistency, attention to detail, and a strong focus on execution.
             </p>
           </div>
 
@@ -87,7 +99,7 @@ import { Component } from '@angular/core';
     a { text-decoration: none; color: inherit; }
 
     .about-wrapper {
-      max-width: 1100px;
+      max-width: min(1280px, 94vw);
       margin: 0 auto;
       padding: 56px 48px 96px;
       animation: fadeUp 0.5s 0.1s ease both;
@@ -96,8 +108,8 @@ import { Component } from '@angular/core';
     /* ── Grid ── */
     .about-grid {
       display: grid;
-      grid-template-columns: 340px 1fr;
-      gap: 0 72px;
+      grid-template-columns: minmax(360px, 420px) 1fr;
+      gap: 0 96px;
       align-items: start;
     }
 
